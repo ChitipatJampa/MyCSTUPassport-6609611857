@@ -50,6 +50,25 @@
             font-size: 30px;
         }
 
+        /* Default styles for the video element */
+        .video-container {
+            max-width: 100%;
+        }
+
+        /* Media query for screens between 600px and 767px (tablets) */
+        @media only screen and (min-width: 600px) and (max-width: 768px) {
+            .video-container {
+                width: 80%;
+            }
+        }
+
+        /* Media query for screens 768px and larger (desktops) */
+        @media only screen and (min-width: 768px) {
+            .video-container {
+                width: 60%;
+            }
+        }
+
         /*for phone*/
         [class *="col-"] {
             width: 100%;
