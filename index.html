@@ -5,178 +5,9 @@
     <title>My CSTU Passport</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    <title>CSS Template</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body,
-        header {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            width: 100%;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 20px;
-            text-align: center;
-        }
-
-
-        section::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        .choice {
-            background-color: red;
-            color: white;
-            margin: 20px;
-            padding: 10px;
-            text-align: center;
-            font-size: 30px;
-        }
-
-        /* Default styles for the video element */
-        .video-container {
-            max-width: 100%;
-        }
-
-        /* Media query for screens between 600px and 767px (tablets) */
-        @media only screen and (min-width: 600px) {
-            .video-container {
-                width: 80%;
-            }
-        }
-
-        /* Media query for screens 768px and larger (desktops) */
-        @media only screen and (min-width: 768px) {
-            .video-container {
-                width: 60%;
-            }
-        }
-
-        /*for phone*/
-        [class *="col-"] {
-            width: 100%;
-        }
-
-        /*for tablet*/
-        @media only screen and (min-width: 600px) {
-            .col-s-1 {
-                width: 8.33%
-            }
-
-            .col-s-2 {
-                width: 16.66%
-            }
-
-            .col-s-3 {
-                width: 25%
-            }
-
-            .col-s-4 {
-                width: 33.33%
-            }
-
-            .col-s-5 {
-                width: 41.66%
-            }
-
-            .col-s-6 {
-                width: 50%
-            }
-
-            .col-s-7 {
-                width: 58.33%
-            }
-
-            .col-s-8 {
-                width: 66.66%
-            }
-
-            .col-s-9 {
-                width: 75%
-            }
-
-            .col-s-10 {
-                width: 83.33%
-            }
-
-            .col-s-11 {
-                width: 91.66%
-            }
-
-            .col-s-12 {
-                width: 100%
-            }
-        }
-
-        /*for desktop*/
-        @media only screen and (min-width: 768px) {
-            .col-1 {
-                width: 8.33%
-            }
-
-            .col-2 {
-                width: 16.66%
-            }
-
-            .col-3 {
-                width: 25%
-            }
-
-            .col-4 {
-                width: 33.33%
-            }
-
-            .col-5 {
-                width: 41.66%
-            }
-
-            .col-6 {
-                width: 50%
-            }
-
-            .col-7 {
-                width: 58.33%
-            }
-
-            .col-8 {
-                width: 66.66%
-            }
-
-            .col-9 {
-                width: 75%
-            }
-
-            .col-10 {
-                width: 83.33%
-            }
-
-            .col-11 {
-                width: 91.66%
-            }
-
-            .col-12 {
-                width: 100%
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -188,99 +19,92 @@
         </div>
     </header>
 
-    <body>
-        <div class="row">
-            <div class="col-3 col-s-3">
-                <div class="choice">
-                    <a href="index.html">
-                        <p>Main</p>
-                    </a>
-                </div>
-                <div class="choice">
-                    <a href="html/myAdvisor.html">
-                        <p>Advisor</p>
-                    </a>
-                </div>
-                <div class="choice">
-                    <a href="html/myActivities.html">
-                        <p>Activities</p>
-                    </a>
-                </div>
+    <div class="row">
+        <div class="col-3 col-s-3">
+            <div class="choice">
+                <a href="index.html">
+                    <p>Main</p>
+                </a>
             </div>
-
-            <div class="col-6 col-s-9">
-                <div style="text-align:center">
-                    <div class="video-container">
-                        <video controls width="400" height="300">
-                            <source src="./VDO/1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
+            <div class="choice">
+                <a href="html/myAdvisor.html">
+                    <p>Advisor</p>
+                </a>
             </div>
-            <div class="col-3 col-s-3">
-                <section>
-                    <nav>
-                        <ul>
-                            <img src="./image/my photo.jpg" alt="Just normal student with his normal look" class="mx-auto" width="250" height="300">
-                            <li>
-                                <p></p>
-                            </li>&nbsp;
-                            <li>
-                                <h5>
-                                    <p>ชื่อ: นายชิติพัทธ์ จำปา</p>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <P>ชื่อเล่น: ซัน (Sun)</P>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <P>รหัสนักศึกษา: 6609611857</P>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <B>
-                                        <p>ช่องทางติดต่อ:</p>
-                                    </B>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <p><span style="color: red">E mail: Chitipat92547@gmail.com</span></p>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <p><span style="color: red">Work: Chitipat.jam@dome.tu.ac.th</span></p>
-                                </h5>
-                            </li>
-                            <li>
-                                <h5>
-                                    <p><span style="color: red">Tel no.: 0973596453</span></p>
-                                </h5>
-                            </li>
-                            <div class="container ">
-                                <a href="https://www.facebook.com/kaopooon"><img src="./image/FB.png" width="100"></a>
-                                <a href="https://discord.gg/Aw5tk7p9"><img src="./image/discord.png" width="60"></a>
-                            </div>
-                        </ul>
-                    </nav>
-                </section>
+            <div class="choice">
+                <a href="html/myActivities.html">
+                    <p>Activities</p>
+                </a>
+            </div>
+        </div>
 
-                <div class="col-3 col-s-3">
-
+        <div class="col-6 col-s-9">
+            <div style="text-align:center">
+                <div class="video-container">
+                    <video controls width="400" height="300">
+                        <source src="./VDO/1.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="row p-4 bg-danger">
-            </div>
+        <div class="col-3 col-s-3">
+            <section>
+                <nav>
+                    <ul>
+                        <img src="./image/my photo.jpg" alt="Just normal student with his normal look" class="mx-auto" width="250" height="300">
+                        <li>
+                            <h5>
+                                <p>ชื่อ: นายชิติพัทธ์ จำปา</p>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <P>ชื่อเล่น: ซัน (Sun)</P>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <P>รหัสนักศึกษา: 6609611857</P>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <B>
+                                    <p>ช่องทางติดต่อ:</p>
+                                </B>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <p><span style="color: red">E mail: Chitipat92547@gmail.com</span></p>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <p><span style="color: red">Work: Chitipat.jam@dome.tu.ac.th</span></p>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <p><span style="color: red">Tel no.: 0973596453</span></p>
+                            </h5>
+                        </li>
+                        <div class="container">
+                            <a href="https://www.facebook.com/kaopooon"><img src="./image/FB.png" width="100"></a>
+                            <a href="https://discord.gg/Aw5tk7p9"><img src="./image/discord.png" width="60"></a>
+                        </div>
+                    </ul>
+                </nav>
+            </section>
         </div>
-    </body>
+    </div>
+
+    <div class="row">
+        <div class="row p-4 bg-danger">
+            <!-- Additional content here -->
+        </div>
+    </div>
 
 </body>
 
